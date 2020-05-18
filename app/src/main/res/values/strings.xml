@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">T-One</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bioskop_name">Nama Film</string>
+    <string name="price">Harga</string>
+    <string name="detail">Detail</string>
+    <string name="beli">Beli</string>
+    <string name="about">About</string>
+    <string name="time">Time</string>
+</resources>

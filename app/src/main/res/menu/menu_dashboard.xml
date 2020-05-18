@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title=""
+        android:id="@+id/ISearch"
+        android:enabled="true"
+        android:icon="@drawable/ic_search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always"/>
+
+    <item
+        android:title=""
+        android:id="@+id/IMore"
+        android:enabled="true"
+        android:icon="@drawable/ic_setting"
+        app:showAsAction="always">
+
+        <menu>
+
+            <item
+                android:title="Account"
+                android:id="@+id/IAccount"
+                android:enabled="true"
+                android:icon="@drawable/ic_account"
+                android:visible="true"
+                app:showAsAction="ifRoom"
+                />
+
+            <item
+                android:title="Logout"
+                android:id="@+id/ILogout"
+                android:enabled="true"
+                android:icon="@drawable/ic_logout"
+                android:visible="true"
+                app:showAsAction="ifRoom"
+                />
+
+        </menu>
+
+    </item>
+</menu>
